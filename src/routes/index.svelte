@@ -1,5 +1,5 @@
 <script>
-    // @ts-ignore
+import "../app.css"    
 import TodoItem from "$lib/todo-item.svelte";
 
 const title = "Todo";
@@ -15,5 +15,7 @@ const title = "Todo";
     <input type="text" name="text" aria-label="Add a todo" placeholder="+ tap to add a todo">
 </form>
 
+<TodoItem/>
+<TodoItem/>
 <TodoItem/>
 
